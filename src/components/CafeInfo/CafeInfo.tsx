@@ -1,8 +1,5 @@
 import css from "./CafeInfo.module.css";
-type Props = {};
-
-const CafeInfo = (props: Props) => {
-  const {} = props;
+const CafeInfo = () => {
 
   return (
     <div className={css.container}>

@@ -1,9 +1,5 @@
 import css from "./Notification.module.css";
-type Props = {};
-
-const Notification = (props: Props) => {
-  const {} = props;
-
+const Notification = () => {
   return <p className={css.message}>No feedback yet</p>;
 };
 
