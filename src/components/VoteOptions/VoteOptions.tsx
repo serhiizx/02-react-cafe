@@ -4,7 +4,7 @@ interface VoteOptionsProps {
   onVote: (vote: VoteType) => void;
   onReset: () => void;
   canReset: boolean;
-};
+}
 
 const VoteOptions = (props: VoteOptionsProps) => {
   const { onVote, onReset, canReset } = props;

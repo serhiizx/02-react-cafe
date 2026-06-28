@@ -5,7 +5,7 @@ interface VoteStatsProps {
   votes: Votes;
   totalVotes: number;
   positiveRate: number;
-};
+}
 
 const VoteStats = (props: VoteStatsProps) => {
   const { votes, totalVotes, positiveRate } = props;
